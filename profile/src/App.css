@@ -1,0 +1,63 @@
+body{
+    margin: 1px;
+    background-color: black;
+    
+}
+
+
+.Nav-Header{
+ display: flex;
+ flex-direction: row;
+ 
+ 
+}
+.btn-header{
+    padding: 20px;
+    margin: 1vh;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transition: 0.25s color ease-in;
+}
+
+.btn-header:hover{
+    color:gold;
+    border:none;
+    transition-delay: 10ms;
+}
+.btn-header:active{
+    outline: none;
+    border:none;
+}
+.btn-header:focus{
+    outline:none;
+}
+
+.img-responsive{
+    border-radius: 50%;
+   margin-right: 200px; 
+}
+.ProfilePic{
+    display: flex;
+    flex-direction: row-reverse;
+    margin:1em;
+
+}
+.name-banner{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-right: 60px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.sub-banner{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-right: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
