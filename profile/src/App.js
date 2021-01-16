@@ -1,4 +1,5 @@
 import profilePic from './Resource/Profilepic.jpg';
+import parallax1 from './Resource/code.png';
 import './App.css';
 
 function App() {
@@ -12,12 +13,22 @@ function App() {
       </div>
       <div className="ProfilePic">
         <img className="img-responsive" src={profilePic}/>
-        <div>
-        <div className="name-banner">Berno Raj</div>
+        <div className="ProfileContent">
+        <div className="name-banner">Berno Raj A</div>
         <div className="sub-banner">Full Stack Engineer</div>
+        <pre className="quote-banner">
+            {
+            `do {
+            succeed=try();
+            } while(!succeed);`
+            }
+          </pre>
         </div>
       
        
+      </div>
+      <div className="ParallaxSection">
+        <img src={parallax1}></img>
       </div>
     
     </div>

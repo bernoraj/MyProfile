@@ -1,7 +1,7 @@
 body{
     margin: 1px;
-    background-color: black;
-    
+    background-color: rgb(31, 26, 26) ;
+   
 }
 
 
@@ -15,7 +15,7 @@ body{
     padding: 20px;
     margin: 1vh;
     border: none;
-    background-color: black;
+    background-color:transparent ;
     color: white;
     font-size: 20px;
     transition: 0.25s color ease-in;
@@ -44,12 +44,20 @@ body{
     margin:1em;
 
 }
+
+.ProfileContent{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: left;
+    align-items: stretch;
+    align-content: space-between;
+    padding: 1em;
+}
 .name-banner{
     color: white;
     font-size: 45px;
     font-weight: bold;
-    padding-top: 100px;
-    padding-right: 60px;
     font-family: 'Times New Roman', Times, serif;
 
 }
@@ -57,7 +65,23 @@ body{
     color: white;
     font-size: 20px;
     font-weight: normal;
-    padding-top: 10px;
-    padding-right: 60px;
+    padding-top: 1em;
     font-family: 'Times New Roman', Times, serif;
+}
+.quote-banner{
+    color: white;
+    font-size: 15px;
+    white-space: nowrap;
+    font-weight: normal;
+    background-color: rgb(255, 255, 255,0.075);
+    border-radius: 4px;
+    /* text-align: right; */
+    
+}
+
+.ParallaxSection{
+    /* background-image: url("./Resource/code.png"); */
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
