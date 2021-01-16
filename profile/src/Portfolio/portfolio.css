@@ -1,0 +1,155 @@
+body{
+    margin: 1px;
+    background-image: repeating-linear-gradient(90deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 60px),repeating-linear-gradient(0deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 60px),repeating-linear-gradient(0deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 10px),repeating-linear-gradient(90deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 10px),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20))
+
+    }
+
+
+
+.Nav-Header
+{
+ display: flex;
+ flex-direction: row;
+ 
+ 
+}
+.btn-header
+{
+    padding: 20px;
+    margin: 1vh;
+    border: none;
+    background-color:transparent ;
+    color: white;
+    font-size: 20px;
+    transition: 0.25s color ease-in;
+    cursor: pointer;
+}
+
+.btn-header:hover{
+    color:gold;
+    border:none;
+    transition-delay: 10ms;
+}
+.btn-header:active{
+    outline: none;
+    border:none;
+}
+.btn-header:focus{
+    outline:none;
+}
+
+.img-responsive{
+    border-radius: 50%;
+   margin-right: 200px; 
+}
+.ProfilePic{
+    display: flex;
+    flex-direction: row-reverse;
+    margin:1em;
+
+}
+
+.ProfileContent{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: left;
+    align-items: stretch;
+    align-content: space-between;
+    padding: 1em;
+}
+.name-banner{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.sub-banner{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.quote-banner{
+    color: white;
+    font-size: 15px;
+    white-space: nowrap;
+    font-weight: normal;
+    background-color: rgb(255, 255, 255,0.075);
+    border-radius: 4px;
+    /* text-align: right; */
+    
+}
+
+.Header-Intro{
+    min-height: 100vh;
+    z-index: 1;
+}
+
+.ParallaxSection{
+    background-image: url('../Resource/code.png');
+    min-height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: solid 7px rgba(179, 138, 3, 0.413);
+}
+
+
+#experienceSection{
+    display: flex;
+    flex-flow: row;
+}
+
+
+header{
+    max-height: 100px;
+   
+    height: 20vh;
+    width: 100%;
+}
+
+header > h2{
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 30px;
+}
+
+.PanelCards{
+   text-align: left;
+   word-spacing: 1px;
+   padding: 1em;
+   width: 30%;
+   height: 150vh; 
+   border-radius: 1em;
+   margin-left: 1em;
+   box-shadow: 1px 2px 2px 0 #aaa;
+   background-image: repeating-linear-gradient(0deg, rgba(0,0,0, 0.06) 0px, rgba(0,0,0, 0.06) 1px,transparent 1px, transparent 16px),repeating-linear-gradient(90deg, rgba(0,0,0, 0.06) 0px, rgba(0,0,0, 0.06) 1px,transparent 1px, transparent 16px),linear-gradient(90deg, rgb(247,255,204),rgb(247,255,204));
+   transition: all 0.4s cubic-bezier(.63,.15,.03,1.12);
+   position: absolute; left: 35%;
+}
+ol>li:not(:first-child) , ul>li{
+    padding-top: 7px;
+}
+
+  .card-1{ 
+    z-index: 10; transform: rotateZ(-2deg);
+  }
+   .card-2{ 
+    z-index: 9; transform: rotateZ(-7deg);
+    transition-delay: 0.05s;
+  }
+    .card-3{ 
+    z-index: 8; transform: rotateZ(5deg);
+    transition-delay: 0.1s;
+  }
+
+  .PanelCards:hover{
+    transform: rotateZ(0deg);
+   
+  }
